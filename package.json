@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/sebastien-coupe/la_chouette_agence#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0"
   }
 }
