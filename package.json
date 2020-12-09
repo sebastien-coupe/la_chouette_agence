@@ -1,0 +1,19 @@
+{
+  "name": "lachouetteagence",
+  "version": "1.0.0",
+  "description": "P4 du parcours Développeur Web d'OpenClassrooms",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastien-coupe/la_chouette_agence.git"
+  },
+  "author": "Sebastien Coupe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastien-coupe/la_chouette_agence/issues"
+  },
+  "homepage": "https://github.com/sebastien-coupe/la_chouette_agence#readme"
+}
