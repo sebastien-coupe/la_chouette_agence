@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /* outline: none!important; */
 }
 
 a:hover {
@@ -25,6 +25,11 @@ img {
 
 .fa, .fas {
     color: white;
+}
+
+.owl {
+    width: 100px;
+    height: 100px;
 }
 
 #page-loading-blocs-notifaction {
