@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sebastien-coupe/la_chouette_agence/issues"
   },
-  "homepage": "https://github.com/sebastien-coupe/la_chouette_agence#readme"
+  "homepage": "https://github.com/sebastien-coupe/la_chouette_agence#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
