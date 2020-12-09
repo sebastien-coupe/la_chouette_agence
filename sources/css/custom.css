@@ -18,6 +18,15 @@ a:hover {
     cursor: pointer;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fa, .fas {
+    color: white;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -542,7 +551,6 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -550,8 +558,9 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 a[data-lightbox]:hover img {
@@ -566,8 +575,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog {
-    width: 90%;
-    max-width: 900px;
+    max-width: 760px;
     margin: 0 auto 0;
 }
 
@@ -610,7 +618,7 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
+    color: rgba(146, 46, 46, 0.9);
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
@@ -676,9 +684,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -780,7 +785,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: rgba(0, 0, 0, 0.7)!important;
 }
 
 .btn-atomic-tangerine:hover {
