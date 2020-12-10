@@ -1044,3 +1044,6 @@ h4 {
         text-align: center;
     }
 }
+#lightbox-modal {
+    display: flex !important;
+}
